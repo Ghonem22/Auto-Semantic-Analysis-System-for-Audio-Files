@@ -286,7 +286,8 @@ class spech_search_through_directory:
         print(chunks_scores_dataframe)
 
         print(f"chunks_scores_saving_name:   {chunks_scores_saving_name}")
-        chunks_scores_dataframe.to_csv(chunks_scores_saving_name, index=True)
+        is_uploaded = save_csv(chunks_scores_dataframe, chunks_scores_saving_name, '/data/parts/')
+        # chunks_scores_dataframe.to_csv(chunks_scores_saving_name, index=True)
 
     def run_through_all_files(self, running_path=None, queries=['read books', 'watch movies']):
 
