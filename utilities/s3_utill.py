@@ -4,8 +4,6 @@ from botocore.exceptions import NoCredentialsError, ClientError
 import pandas as pd
 
 
-key = 'AKIAQJFAX2MPGH2WMJ6Q'
-secret = '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'
 
 s3 = boto3.resource('s3', aws_access_key_id=key,
                     aws_secret_access_key=secret)
