@@ -1,0 +1,65 @@
+data_bucket: 'nomadstory.data.test'
+product_image_bucket_dev: 'ns-product-picture-dev'
+product_image_bucket_prod: 'ns-product-picture-prod'
+img_formats:
+  - '.jpg' 
+  - '.jpeg' 
+  - '.png'
+sites:
+  zara:
+    active: 'yes'
+  shein:
+    active: 'no'
+scrap_data_zones:
+  bronze: 'bronze/scrap/'
+  silver: 'silver/'
+  gold: 'gold/'
+
+labels_data_zones:
+  bronze: 'bronze/scrap/'
+  silver: 'silver/'
+  gold: 'gold/'
+
+published_data_folders:
+  updated_products: 'mobile_app/updated/'
+  new_products: 'mobile_app/new/'
+
+sub_tag:
+  dresses: clothing
+  tops-jackets: clothing
+  jumpsuits-playsuits: clothing
+  skirts: clothing
+  jeans-pants-shorts: clothing
+  sets: clothing
+  beachwear: clothing
+  jeans_pants_shorts_skorts: clothing
+
+Department:
+  bag: Bags
+  shoe: Shoes
+  belt: Belts
+  scarve: Scarves
+  dresses: Dresses
+  skirts: Skirts
+  sets: Sets
+  beachwear: Beachwear
+  scarf: Scarves
+
+num_products:
+  bershka: 30
+  brauntu: 30
+  dresscodeme: 30
+  hm: 30
+  palma: 30
+  pullandbear: 30
+  shein: 2
+  trendyol: 30
+  zara: 2
+
+scrapers:
+  - shein
+  - bershka
+  - brantu
+  - dresscodeme
+  - palma
+  - zara
